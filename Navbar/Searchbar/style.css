@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #fff;
+    background-color: #0F0F0F;
+}
+
+.search-mic{
+    /* border: 2px solid #3d3d3d ; */
+    /* border-radius: 50px 50px 50px 50px; */
+    margin: 6em;
+    width: 50%;
+}
+
+.search-mic input{
+    border: 2px solid #3d3d3d;
+    border-radius: 50px 0 0 50px;
+    width: 75%;
+    padding: 0.8em;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-mic input:focus{
+    /* border: 1px solid blue; */
+    border: none;
+    outline: 2px solid rgb(72, 72, 222);
+    /* outline-color: blue; */
+}
+
+.search-mic i {
+    border: 2px solid #3d3d3d;
+    border-radius: 0px 50px 50px 0;
+    width: 12%;
+    /* height: 2.94rem; */
+    text-align: center;
+    margin-left: -5px;
+    padding: 0.2em 0 0.64em 0;
+    font-size: 1.5rem;
+    background: #3d3d3d;
+}
+
+.search-mic p{
+    font-size: 0.8rem;
+    background: rgba(61, 61, 61, 0.42);
+    width: 60px;
+    padding: 0.8em;
+    border-radius: 8px;
+    /* backdrop-filter: blur(10px); */
+    margin: 1.5em 0 0 22em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.search-mic i:hover + p{
+    opacity: 1;
+}
+
