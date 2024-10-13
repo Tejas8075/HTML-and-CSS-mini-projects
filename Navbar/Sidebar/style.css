@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #fff;
+    background-color: #070707;
+}
+
+.sidebar{
+    /* border: 2px solid magenta; */
+    width: 15%;
+    padding-right: 5px;
+    background-color: #0F0F0F;
+}
+
+.sidebar-icon{
+    /* border: 2px solid green; */
+    width: 17%;
+    padding: 0.3em;
+    /* background: #000; */
+    margin-left: 0.3em;
+}
+
+.sidebar-icon:hover{
+    /* border: none;
+    outline: none; */
+    border-radius: 50px;
+    background-color: #3d3d3d;
+}
+
+/* home-shorts-subs */
+
+.options{
+    margin-left: 0.3em;
+}
+
+.home-shorts-subs{
+    border-bottom: 2px solid #3d3d3d;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.home,
+.shorts,
+.subs{
+    display: flex;
+}
+
+/* .subs{
+    margin-bottom: 1em;
+} */
+
+
+.shortsicon{
+    margin-top: 10px;
+}
+
+.home p,
+.shorts p,
+.subs p{
+    margin: 0.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home:hover,
+.shorts:hover,
+.subs:hover{
+    background: rgba(61, 61, 61, 0.3);
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* You section */
+
+.you-section{
+    margin-top: 1em;
+    padding: 0.5em;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+.you-right-arrow{
+    display: flex;
+}
+
+.you-right-arrow p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.right-arrow{
+    margin-bottom: 4.3px;
+}
+
+.your-channel,
+.history,
+.playlist,
+.your-videos,
+.your-courses,
+.watch-later,
+.liked-videos{
+    display: flex;
+}
+
+.your-channel p,
+.history p,
+.playlist p,
+.your-videos p,
+.your-courses p,
+.watch-later p,
+.liked-videos p{
+    margin: 0.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.your-channel:hover,
+.history:hover,
+.playlist:hover,
+.your-videos:hover,
+.your-courses:hover,
+.watch-later:hover,
+.liked-videos:hover{
+    border-radius: 50px;
+    background-color: #3d3d3d;
+}
+
+/* Explore section */
+
+.explore{
+    margin-top: 1em;
+    margin-left: 0.35em;
+    /* border: 2px solid red; */
+    padding: 0.5em;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+.explore-name{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.trending,
+.shopping,
+.music,
+.films,
+.live,
+.gaming,
+.news,
+.sport,
+.courses,
+.fashion-beauty,
+.podcasts{
+    display: flex;
+}
+
+.trending p,
+.shopping p,
+.music p,
+.films p,
+.live p,
+.gaming p,
+.news p,
+.sport p,
+.courses p,
+.fashion-beauty p,
+.podcasts p{
+    margin: 0.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.trending-icon,
+.shopping-icon,
+.music-icon,
+.films-icon,
+.live-icon,
+.gaming-icon,
+.news-icon,
+.sport-icon,
+.courses-icon,
+.fashion-beauty-icon,
+.podcasts-icon{
+    margin-left: -3px;
+}
+
+/* More on Youtube section */
+
+.moreonyoutube{
+    margin-top: 1em;
+    margin-left: 0.35em;
+    /* border: 2px solid red; */
+    padding: 0.5em;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+.moreonyoutube-name{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.youtube-premium,
+.youtube-studio,
+.youtube-music,
+.youtube-kids{
+    display: flex;
+}
+
+.youtube-premium p,
+.youtube-studio p,
+.youtube-music p,
+.youtube-kids p{
+    margin: 0.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Settings, Report history, Help and Send feedback section */
+
+.settings-reporthistory-help-sendfeedback{
+    margin-top: 1em;
+    margin-left: 0.35em;
+    /* border: 2px solid red; */
+    padding: 0.5em;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+.settings,
+.reporthistory,
+.help,
+.sendfeedback{
+    display: flex;
+}
+
+/* .settings-icon,
+.reporthistory-icon,
+.help-icon,
+.sendfeedback-icon{
+
+} */
+
+.settings p,
+.reporthistory p,
+.help p,
+.sendfeedback p{
+    margin: 0.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Links section */
+
+.links{
+    margin-top: 1em;
+    margin-left: 0.6em;
+    padding: 0.5em;
+}
+
+.link1,
+.link2{
+    margin-bottom: 0.8em;
+}
+
+.sec1 a,
+.sec2 a,
+.sec3 a,
+.sec4 a,
+.sec5 a,
+.sec6 a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 7px;
+    color: #AAAAAA;
+}
+
+.coyright-date{
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #6e6d6d;
+}
