@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #fff;
+    background-color: #0F0F0F;
+}
+
+.right-icon-section{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.create-icon,
+.notification-icon,
+.account-info{
+    margin: 0.3em 0.8em;
+    position: relative;
+    cursor: pointer;
+}
+
+.crea,
+.noti{
+    font-size: 0.8rem;
+    background: rgba(61, 61, 61, 0.42);
+    width: 60px;
+    padding: 0.8em;
+    border-radius: 8px;
+    /* backdrop-filter: blur(10px); */
+    margin: 1.5em 0 0em -3em;
+    opacity: 0;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    left: 32px;
+    /* right: 30px; */
+    transition: opacity 0.3s ease;
+}
+
+.create-icon:hover .crea,
+.notification-icon:hover .noti{
+    opacity: 1;
+}
+
+.account-info{
+    /* border: 2px solid #7A1FA1; */
+    border-radius: 56px;
+    padding-right: 7px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background: #7A1FA1;
+    margin-bottom: 60px;
+}
