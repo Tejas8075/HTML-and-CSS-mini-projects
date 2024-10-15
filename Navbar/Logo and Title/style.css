@@ -10,7 +10,26 @@
 }
 
 .logo-title{
-    border: 2px solid magenta;
-    /* display: flex;
-    align-items: center; */
+    /* border: 2px solid magenta; */
+    display: flex;
+    align-items: center;
+}
+
+.sidebar{
+    /* border: 2px solid magenta; */
+    width: 15%;
+    padding-right: 5px;
+    background-color: #0F0F0F;
+}
+
+.sidebar-icon{
+    /* border: 2px solid green; */
+    width: 6%;
+    padding: 0.3em;
+    /* background: #000; */
+    margin-left: 0.3em;
+}
+
+.logo-title a{
+    margin-left: 0.6em;
 }
