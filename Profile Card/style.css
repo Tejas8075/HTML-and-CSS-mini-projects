@@ -38,7 +38,7 @@ body{
     width: 28%;
     height: 55%;
     object-fit: cover;
-    /* object-position: top; */
+    object-position: top;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -64,11 +64,12 @@ body{
 
 .description{
     /* border: 2px solid rgb(255, 0, 242); */
+    margin-top: 0.3em;
     text-align: center;
 }
 
 .small-desc{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
