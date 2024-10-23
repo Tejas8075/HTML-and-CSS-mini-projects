@@ -28,6 +28,8 @@ li {
     background-color: #fff;
 }
 
+/* <!--Header--!> */
+
 header {
     border: 2px solid red;
     width: 100%;
@@ -169,8 +171,66 @@ header {
     transition: visibility 0.3s ease;
 }
 
+.liked-products-name{
+    width: 95px;
+    text-align: center;
+}
+
 .account i:hover + .account-name,
 .liked-products i:hover + .liked-products-name,
 .cart i:hover + .cart-name {
     visibility: visible;
 }
+
+/* <!--/Header--!> */
+
+/* <!--Main--!> */
+
+/* <!--Left-Section--!> */
+
+.left-side{
+    border: 2px solid green;
+    width: 45%;
+}
+
+.top-context{
+    display: flex;
+    justify-content: space-between;
+}
+
+.context-left-side{
+    border: 2px solid firebrick;
+    width: 75%;
+}
+
+.context-left-side .main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.context-right-side{
+    border: 2px solid yellowgreen;
+    width: 25%;
+    height: 100%;
+    margin-top: 2.5em;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.side-images{
+    border: 2px solid yellowgreen;
+    width: 100%;
+    text-align: center;
+}
+
+.side-images .grow-image{
+    width: 60%;
+    object-fit: cover;
+}
+
+/* <!--/Left-Section--!> */
+
+/* <!--/Main--!> */
