@@ -31,14 +31,14 @@ li {
 /* <!--Header--!> */
 
 header {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     align-items: center;
 }
 
 .menu-icon {
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink; */
     width: 6%;
     padding-left: 0.6em;
     padding-top: 0.78em;
@@ -48,7 +48,7 @@ header {
 }
 
 .product-types {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 18%;
     padding: 0.6em;
     font-size: 1.05rem;
@@ -89,7 +89,7 @@ header {
 }
 
 .logo-companyname {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     width: 54%;
     padding: 0.4em 0.6em 0.6em 0.6em;
     text-align: center;
@@ -105,7 +105,7 @@ header {
 }
 
 .side-icons {
-    border: 2px solid olive;
+    /* border: 2px solid olive; */
     width: 20%;
     display: flex;
     justify-content: space-between;
@@ -157,7 +157,7 @@ header {
 .account-name,
 .liked-products-name,
 .cart-name {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
     padding: 0.3em;
     font-size: 0.8rem;
@@ -195,7 +195,7 @@ main{
 /* <!--Left-Section--!> */
 
 .left-side{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 45%;
     height: 90%;
     margin-top: 1em;
@@ -256,7 +256,7 @@ main{
 
 .bottom-context{
     margin-top: 1.3em;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .bottom-title-icons{
@@ -344,7 +344,7 @@ main{
 /* <!--Right-Section--!> */
 
 .right-side{
-    border: 2px solid lightseagreen;
+    /* border: 2px solid lightseagreen; */
     /* border: 2px solid green; */
     width: 45%;
     height: 90%;
@@ -575,7 +575,7 @@ main{
         /* justify-content: center; */
         align-items: center;
         overflow-y: scroll;
-        border: 2px solid hotpink;
+        /* border: 2px solid hotpink; */
     }
 
     .top-context{
@@ -593,10 +593,6 @@ main{
     .context-left-side .main-image{
         width: 100%;
         object-fit: cover;
-    }
-
-    .side-images{
-        /* margin-top: 0em; */
     }
 
     .side-images .grow-image{
