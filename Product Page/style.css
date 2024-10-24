@@ -415,7 +415,7 @@ main{
 .buy-now,
 .add-to-cart{
     padding: 0.9em;
-    width: 35%;
+    width: 45%;
     /* height: 20%; */
     background-color: transparent;
     font-size: 1.05rem;
@@ -469,37 +469,47 @@ main{
 
 /* <!--Footer--!> */
 
-footer{
-    position: relative;
-    text-align: center;
-}
+/* footer{ */
+    /* position: relative; */
+    /* height: 100px; */
+    /* text-align: center; */
+/* } */
 
-.bxs-circle-half{
-    font-size: 7rem;
-    /* margin-bottom: 2px; */
-    margin-top: -2.9px;
-}
+/* .bxs-circle-half{ */
+    /* position: sticky; */
+    /* font-size: 7rem;
+    margin-bottom: 2px;
+    margin-top: -2.9px; */
+    /* position: absolute;
+    border: 2px solid gray;
+    font-size: 6rem;
+    left: 50%;
+    top: 50%; */
+    /* transform: translate(); */
+    /* height: 20px; */
+    
+/* } */
 
-.bx-search{
+/* .bx-search{
     position: absolute;
     top: 34%;
     left: 50%;
     font-size: 1.5rem;
     transform: translate(-50%,-50%);
     cursor: pointer;
-}
+} */
 
 /* <!--/Footer--!> */
 
 /* <!--/Main--!> */
 
-@media (max-width:996px){
+/* @media (max-width:996px){
     .product-types{
         width: 30%;
     }
-}
+} */
 
-@media (max-width:689px){
+/* @media (max-width:689px){
     .container{
        height: 92%;
     }
@@ -508,5 +518,169 @@ footer{
 @media (max-width:588px){
     .container{
        height: 94.5%;
+    }
+} */
+
+@media (min-width:344px) and (max-width:540px){
+    body{
+        /* height: 90vh; */
+        align-items: center;
+        background-color: #fff;
+    }
+
+    .container{
+        position: relative;
+        /* overflow-y: scroll; */
+        /* height: 100%; */
+        width: 100%;
+        margin-top: -4.5em;
+        /* width: 90%; */
+        /* height: 100vh; */
+    }
+
+    header{
+        /* position: sticky; */
+        /* width: 100%; */
+        /* height: 200px; */
+        background-color: #fff;
+    }
+
+    .menu-icon{
+        width: 30%;
+        padding-left: 0.8em;
+    }
+
+    .product-types{
+        display: none;
+    }
+
+    .logo-companyname{
+        width: 74%;
+    }
+
+    .side-icons{
+        width: 35%;
+        gap: 5px;
+    }
+
+    .account i, 
+    .liked-products i, 
+    .cart i{
+        padding: 0.1em;
+        font-size: 1rem;
+    }
+
+    main{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        overflow-y: scroll;
+        border: 2px solid hotpink;
+    }
+
+    .top-context{
+        height: 221px;
+    }
+
+    .left-side{
+        /* border: 2px solid red; */
+        width: 90%;
+        height: 80%;
+        margin-left: 0;
+        /* margin-bottom: 0.2em; */
+    }
+
+    .context-left-side .main-image{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .side-images{
+        /* margin-top: 0em; */
+    }
+
+    .side-images .grow-image{
+        width: 50%;
+    }
+
+    .grow-image:hover{
+        transform: scale(4);
+    }
+
+    .middle-side{
+        display: none;
+    }
+
+    .bottom-context{
+        position: absolute;
+        top: 134%;
+        width: 88%;
+        margin-top: 1em;
+    }
+
+    .right-side{
+        width: 90%;
+        /* text-align: center; */
+        margin-right: 0;
+        margin-top: 0.5em;
+    }
+
+    .btns{
+        flex-direction: column;
+    }
+
+    .buy-now, 
+    .add-to-cart{
+        width: 100%;
+        padding: 0.7em;
+    }
+
+    .buy-now{
+        margin-bottom: 0.7em;
+    }
+
+    .question{
+        margin-top: 0.2em;
+        text-align: start;
+    }
+
+    .delivery-price-info{
+        text-align: start;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:912px){
+    .container{
+        margin-top: 10em;
+    }
+
+    .context-left-side .main-image{
+        margin-left: 5px;
+        object-fit: cover;
+    }
+
+    .side-images .grow-image{
+        width: 54%;
+    }
+
+    .top-context{
+        height: 243px;
+    }
+
+    .product-types{
+        width: 28%;
+    }
+
+    .logo-companyname{
+        width: 34%;
+    }
+
+    .side-icons{
+        width: 27%;
+        margin-left: 1em;
     }
 }
